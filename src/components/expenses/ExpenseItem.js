@@ -1,5 +1,5 @@
-import Calendar from "./Calendar";
-import Card from "./Card";
+import Calendar from "../UI/Calendar";
+import Card from "../UI/Card";
 import "./ExpenseItem.css";
 
 function ExpenseItem(props) {
