@@ -5,6 +5,7 @@ import './ExpenseList.css';
 function ExpenseList(props) {
   var items = props.expenses.map((expense) => (
     <ExpenseItem
+      key={expense.id}
       title={expense.title}
       amount={expense.amount}
       date={expense.date}
