@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Calendar from "../UI/Calendar";
 import Card from "../UI/Card";
 import "./ExpenseItem.css";
